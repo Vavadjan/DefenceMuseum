@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Музей 4-го сектора обороны Севастополя</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <header>
+        <h1 class="page-title">Музей 4-го сектора обороны Севастополя</h1>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#virtualMuseum" class="TextLink">Виртуальный музей</a>
+            </li>
+            <li>
+              <a href="#youtubeContainer" class="TextLink"
+                >Видеоэкскурсия 360</a>
+            </li>
+            <li><a href="./gallery.html" class="TextLink">Цифровой архив</a></li>
+            <li><a href="#aboutRectangle" class="TextLink">О музее</a></li>
+            <li><a href="./audio-guide.html" class="liAudio">Аудиогид</a></li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <span></span>
+        </div>
+      </header>
+    </div>
+    <main class="main">
+      <div class="banner"></div>
+      <div class="acquaintance">
+        <h2 class="acquaintanceH2">
+          Познакомьтесь с музеем, не выходя из дома.
+        </h2>
+        <p class="acquaintanceP">
+          Посетите виртуальный музей, пройдите видеоэкскурсию 360°, изучайте
+          цифровой архив
+        </p>
+      </div>
+      <div class="virtualMuseum">
+        <a  name="virtualMuseum"></a>
+        <div class="virtualMuseumBanner">
+          <div class="rectangleVirtualMuseum">
+            <h2 class="virtualMuseumBannerH2">Виртуальный музей</h2>
+            <p class="virtualMuseumBannerP">
+              Перемещайтесь по музею самостоятельно и изучайте экспонаты прямо в
+              браузере
+            </p>
+            <a href="/virtualgallery/index.html">
+              <button class="virtualMuseumBannerButton">Посетить</button>
+            </a>
+            <p class="virtualMuseumBannerGadget">Windows, Mac, iOS, Android</p>
+          </div>
+        </div>
+      </div>
+      <div class="rectangleOculus">
+        <div class="rectangleOculusImg"></div>
+        <div class="rectangleOculusText">
+          <h2 class="rectangleOculusH2">
+            Являетесь обладателем VR гарнитуры Oculus Quest или Quest 2?
+          </h2>
+          <p class="rectangleOculusP">
+            Загрузите приложение для этих очков и прямо сейчас начните своё
+            путешествие по музею в виртуальной реальности. Благодаря
+            интуитивному управлению и простому интерфейсу вы почувствуете себя
+            так, будто действительно ходите по музею
+          </p>
+        </div>
+        <div class="containerWhithButton">
+          <a href="oculus/defence museum.apk" download>
+            <button class="rectangleOculusButon">СКАЧАТЬ</button>
+          </a>
+        </div>
+      </div>
+      <div class="youtubeContainer">
+        <a name="youtubeContainer"></a>
+        <div class="youtubeContainerTitle">
+          <h2 class="youtubeContainerTitleH2">Видео экскурсия 360°</h2>
+          <p class="youtubeContainerText">
+            Экскурсовод и заведующая музеем Нина Васильевна Шульга расскажет
+            историю четвертого сектора обороны Севастополя и укажет на
+            интересные детали.
+          </p>
+        </div>
+        <div class="youtubeContainerVideoPlugin">
+          <div class="player" id="player"></div>
+        </div>
+      </div>
+      <div class="digitalArchive">
+        <div class="digitalArchiveH2">Цифровой архив</div>
+        <p class="digitalArchiveP">
+          <a href="./gallery.html" class="TextLink">Смотреть всё</a>
+        </p>
+        <div class="digitalArchiveIMGcontainer digitalArchive__wrap">
+          <div class="digitalArchive__inner">
+            <div class="digitalArchive__block">
+              <div class="img-wrap digitalArchive__img-wrap">
+                <img src="./img/digitalArchive1.png" alt="">
+              </div>
+            </div>
+            <div class="digitalArchive__block">
+              <div class="img-wrap digitalArchive__img-wrap">
+                <img src="./img/digitalArchive2.png" alt="">
+              </div>
+            </div>
+            <div class="digitalArchive__block">
+              <div class="img-wrap digitalArchive__img-wrap digitalArchive__img-wrap_small">
+                <img src="./img/digitalArchive3.png" alt="">
+              </div>
+              <div class="img-wrap digitalArchive__img-wrap digitalArchive__img-wrap_sm-hidden digitalArchive__img-wrap_small">
+                <img src="./img/digitalArchive4.png" alt="">
+              </div>
+            </div>
+            <div class="digitalArchive__block">
+              <div class="img-wrap digitalArchive__img-wrap digitalArchive__img-wrap_sm-hidden digitalArchive__img-wrap_small">
+                <img src="./img/digitalArchive5.png" alt="">
+              </div>
+              <div class="img-wrap digitalArchive__img-wrap digitalArchive__img-wrap_small">
+                <img src="./img/digitalArchive6.png" alt="">
+                <a href="./gallery.html" class="digitalArchive__link TextLink">
+                  <div class="digitalArchive__counter">48</div>
+                  <div class="digitalArchive__link-text">фото</div>
+                </a>
+              </div>
+            </div>
+          </div>            
+        </div>
+      </div>
+        <p class="digitalArchiveP2">
+          Архив содержит больше тысячи исторических артефактов, документов,
+          фотографий, писем и рукописей, доступных для скачивания в высоком
+          разрешении. Изюминкой архива являются портреты бойцов 8-й бригады,
+          оживленные с помощью нейронных сетей.
+        </p>
+        <div class="digitalArchive__GIF">
+          <div class="digitalArchive__GIFinner">
+              <div class="digitalArchive__GIFblock">
+                <div class="img-wrap digitalArchive__img-wrap">
+                  <img src="./img/gif1.png" alt="">
+                </div>
+              </div>
+              <div class="digitalArchive__GIFblock">
+                <div class="img-wrap digitalArchive__img-wrap">
+                  <img src="./img/gif2.png" alt="">
+                </div>
+              </div>
+              <div class="digitalArchive__GIFblock">
+                <div class="img-wrap digitalArchive__img-wrap">
+                  <img src="./img/gif3.png" alt="">
+                </div>
+              </div>
+                         
+            </div>
+          </div>
+          
+        <div class="osnovaniye">
+          <div class="slider">
+            <div class="moving_slayda">
+              <img src="./img/gif1.png" alt="" />
+            </div>
+            <div class="moving_slayda">
+              <img src="./img/gif2.png" alt="" />
+            </div> 
+            <div class="moving_slayda">
+              <img src="./img/gif3.png" alt="" />
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div class="aboutRectangle">
+        <a name="aboutRectangle"></a>
+        <h2 class="aboutRectangleH2">О музее</h2>
+        <p class="aboutRectangleP">
+          Музей в с.Верхнесадовое открыт в октябре 1972г. на втором этаже дома
+          культуры “Садовод”. Материалы и экспонаты музея собраны учащимися
+          школы №52 и жителями села. Экспозиция музея рассказывает о героических
+          событиях ВОВ, происходивших в 4-ом секторе обороны Севастополя в
+          1941-1942гг.
+        </p>
+        <p class="aboutRectangleP">
+          Центральной точкой музея является диорама «Защитники Севастополя»,
+          которая отражает события, происходившие в ноябре 1941 года в районе
+          села Верхнесадового (бывшее село Дуванкой).
+        </p>
+        <p class="aboutRectangleP">
+          В 2023 году помещение музея было отремонтировано, экспозиция дополнена
+          мультимедиа инсталляцией, создан сайт с виртуальной копией музея,
+          видеоэкскурсией 360, и цифровым архивом.
+        </p>
+      </div>
+      <div class="mapContainer">
+        <script
+          type="text/javascript"
+          charset="utf-8"
+          async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abac115058b7e69092f40a4e2e8913b3b2aba08f4a07723885eb07ef8f6630e96&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"
+        ></script>
+      </div>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <div class="contacts">
+          <h2 class="contactsH2">Контакты:</h2>
+          <p class="contactsAdress">Адрес:</p>
+          <p class="contactsAdressDetails">
+            г.Севастополь, с. Верхнесадовое, <br />ул. Севастопольская, 82
+          </p>
+          <p class="contactsBooking">Бронирование экскурсий:</p>
+          <p class="contactsBookingDetails">+7 (8692) 729-594</p>
+          <p class="contactsSocialMedia">Социальные сети:</p>
+          <p class="contactsSocialMediaDetails">
+            <a class="socialMediaLink" href="https://vk.com/dk.vsadovoe1960"
+              >https://vk.com/dk.vsadovoe1960</a
+            >
+          </p>
+        </div>
+        <div class="workingMode">
+          <h2 class="workingModeH2">Режим работы музея:</h2>
+          <p class="workingModeOpen">Открыто:</p>
+          <p class="workingModeOpenHoursDetails">10:00 - 18:00</p>
+          <p class="workingModeOpenDaysDetails">
+            Среда, четверг, пятница, <br />суббота, воскресенье
+          </p>
+          <p class="workingModeWeekend">Выходной:</p>
+          <p class="workingModeWeekendDetails">Понедельник, вторник</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.querySelector(".burger").addEventListener("click", function () {
+        this.classList.toggle("active");
+        document.querySelector(".nav").classList.toggle("open");
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".slider").slick({
+          arrows: true,
+          dots: false,
+          slidesToShow: 1,
+          autoplay: false,
+          speed: 900,
+          autoplaySpeed: 700,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 550,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
