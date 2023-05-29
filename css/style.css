@@ -1079,6 +1079,17 @@ html {
   flex-direction: column;
 }
 
+@media (min-width: 1080px) {
+  .digitalArchive {
+    padding: 0px 0px 0px 0px;
+    margin: 120px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 .digitalArchiveIMGcontainer {
   padding: 0px 0px 0px 20px;
   margin: 0px 0px 0px 0px;
@@ -1088,13 +1099,24 @@ html {
 
 @media (min-width: 1080px) {
   .digitalArchiveIMGcontainer {
-    padding: 0px 0px 0px 0px;
+    /* padding: 0px 0px 0px 0px; */
     margin: 0px auto 0px auto;
     width: 90%;
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1080px) {
+  .digitalArchiveTitle {
+    margin: 0px auto 0px auto;
+    padding: 0px auto 0px auto;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
   }
 }
 
@@ -1108,6 +1130,18 @@ html {
   line-height: 30px;
 }
 
+@media (min-width: 1080px) {
+  .digitalArchiveH2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 50%;
+    height: 69px;
+    font-weight: 700;
+    font-size: 60px;
+    display: flex;
+  }
+}
+
 .digitalArchiveP {
   padding: 0px 0px 0px 0px;
   margin: 20px 40px 0px 16px;
@@ -1119,9 +1153,18 @@ html {
   text-align: right;
 }
 
+@media (min-width: 1080px) {
+  .digitalArchiveP {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 16%;
+    display: flex;
+  }
+}
+
 .digitalArchiveP2 {
   padding: 0px 0px 0px 0px;
-  margin: 40px auto 40px auto;
+  margin: 0px auto 40px auto;
   width: 343px;
   height: 240px;
   font-weight: 400;
