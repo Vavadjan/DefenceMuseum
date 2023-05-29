@@ -410,7 +410,6 @@ html {
   padding: 0px 0px 0px 0px;
   margin: 86px 0px 0px 0px;
   height: 200px;
-  /* background-image: url(../img/banner.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -422,7 +421,6 @@ html {
     padding: 0px 0px 0px 0px;
     width: 100%;
     height: 910px;
-    /* background: url(../media/5440885585847789258.webm); */
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;
@@ -495,7 +493,7 @@ html {
   padding: 0px 0px 0px 0px;
   width: 100%;
   height: 600px;
-  background: url(../img/vr_tour_image_small.png);
+  background: url(../img/vr_tour_image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
