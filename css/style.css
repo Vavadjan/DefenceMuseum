@@ -407,23 +407,17 @@ html {
 }
 
 .banner {
-  padding: 0px 0px 0px 0px;
   margin: 86px 0px 0px 0px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  position: relative;
+  padding-top: 1,77%;
 }
 
 @media (min-width: 1080px) {
   .banner {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    width: 100%;
-    height: 910px;
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: cover;
+    position: relative;
+    padding-top: 1,77%;
   }
 }
 
@@ -591,20 +585,16 @@ html {
 .virtualMuseumBannerGadget {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  /* width: 182px; */
   height: 16px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
-  /* color: #262626; */
-  /* display: none; */
 }
 
 @media (min-width: 1080px) {
   .virtualMuseumBannerGadget {
     margin: 20px 0px 0px 99px;
-    /* padding: 0px 0px 0px 0px; */
     width: 182px;
     height: 16px;
     font-weight: 400;
@@ -634,7 +624,6 @@ html {
 @media (min-width: 1080px) {
   .virtualMuseumBannerButton {
     margin: 20px 0px 0px 45px;
-    /* padding: 0px 0px 0px 0px; */
     width: 301px;
     height: 66px;
     border-radius: 100px;
@@ -666,7 +655,6 @@ html {
   .rectangleOculus {
     margin: 120px 100px 0px 100px;
     padding: 0px 0px 0px 0px;
-    /* width: 1720px; */
     height: 462px;
     border: 2px solid #ffffff;
     border-radius: 40px;
@@ -677,7 +665,6 @@ html {
 .rectangleOculusText {
   padding: 0px 0px 0px 0px;
   margin: 30px 20px 0px 20px;
-  /* height: 449px; */
   position: relative;
 }
 
@@ -747,7 +734,6 @@ html {
 }
 
 .rectangleOculusButon {
-  /* margin: 30px auto; */
   padding: 0px 0px 0px 0px;
   width: 282px;
   height: 66px;
