@@ -811,23 +811,23 @@ html {
   flex-direction: column;
 }
 
-@media (min-width: 1900px) {
+/* @media (min-width: 1900px) {
   .youtubeContainer {
     margin: 120px 100px 0px 100px;
     padding: 0px;
     width: auto;
     height: auto;
   }
-}
+} */
 
-@media (min-width: 1365px) and (max-width: 1900px) {
+/* @media (min-width: 1365px) and (max-width: 1900px) {
   .youtubeContainer {
     margin: 120px 100px 0px 100px;
     padding: 0px;
     width: auto;
     height: auto;
   }
-}
+} */
 
 @media (min-width: 1365px) and (max-width: 1900px) {
   .youtubeContainer {
@@ -893,36 +893,36 @@ html {
   padding-top: 1.77%;
 }
 
-.youtubeContainerVideoPluginINNER {
+/* .youtubeContainerVideoPluginINNER {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: auto;
-}
+} */
 
-@media (min-width: 1900px) {
+/* @media (min-width: 1900px) {
   .youtubeContainerVideoPlugin {
     margin: 30px auto 0px auto;
     padding: 0px 0px 0px 0px;
     width: 1720px;
     height: 840px;
   }
-}
+} */
 
-@media (min-width: 1365px) and (max-width: 1900px) {
+/* @media (min-width: 1365px) and (max-width: 1900px) {
   .youtubeContainerVideoPlugin {
     position: relative;
     padding-top: 56.25%;
   }
-}
+} */
 
 @media (min-width: 1023px) and (max-width: 1364px) {
   .youtubeContainerVideoPlugin {
     margin: 30px auto 0px auto;
     position: relative;
-    padding-top: 56.25%;
-    width: 90%;
+    padding-top: 1.77%;
+    /* width: 90%; */
   }
 }
 
