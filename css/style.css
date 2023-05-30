@@ -893,7 +893,7 @@ html {
   position: relative;
   padding-top: 1.7%;
   /* width: 100%; */
-  /* height: auto; */
+  height: auto;
 }
 
 @media (min-width: 1900px) {
